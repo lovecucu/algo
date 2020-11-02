@@ -1,1 +1,1 @@
-# beautify-of-algorithm
+# beauty-of-algorithm
