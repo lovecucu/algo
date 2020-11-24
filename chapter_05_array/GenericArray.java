@@ -1,4 +1,3 @@
-package algo.chapter_05_array;
 
 public class GenericArray<T> {
     private T[] data;
@@ -143,11 +142,11 @@ public class GenericArray<T> {
         intArray.add(2, 2);
         intArray.add(3, 4);
         intArray.add(3, 3);
-        intArray.set(4, 3);
-        intArray.add(5, 5);
+        // intArray.add(5, 5);
+        intArray.set(4, 1);
         System.out.println(intArray);
         
-        intArray.remove(2);
+        intArray.remove(4);
         intArray.removeFirst();
         intArray.removeLast();
         System.out.println(intArray);
